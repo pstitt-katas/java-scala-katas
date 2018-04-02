@@ -7,6 +7,7 @@ class RomanTest extends PropSpec with PropertyChecks with Matchers {
 
   val converter: RomanNumeralConverter = new RomanNumeralConverter()
 
+  // TODO add more examples - just started and have no proper solution yet...
   property("examples") {
     val testCases = Table("no more than 3 in a row",
       (1, "I")
